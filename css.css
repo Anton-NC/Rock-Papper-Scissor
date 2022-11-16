@@ -1,0 +1,59 @@
+button {
+    width: 10em;
+    height: 10em;
+}
+img {
+    width: 9em;
+    height: 9em;
+}
+.choice {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    position: relative;
+    top: 10em;
+    gap: 1em;
+}
+.game {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55em;
+    background-color: aliceblue;
+    border: 1em solid black;
+    height: 30em;
+}
+.dator {
+    font-size: 5em;
+    margin-left: 1%;
+
+}
+.Player {
+    font-size: 5em;
+    position: relative;
+    right: -1em;
+    
+}
+.img1 {
+    width: 8em;
+    height: 8em;
+    position: relative;
+    top: 8em;
+    right: 14em;
+    
+}
+.img2 {
+    width: 8em;
+    height: 8em;
+    position: relative;
+    top: 8em;
+    right: 6em;
+
+}
+.score {
+    position: relative;
+    right: 50px;
+
+
+}
