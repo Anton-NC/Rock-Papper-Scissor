@@ -1,59 +1,71 @@
-button {
-    width: 10em;
-    height: 10em;
-}
-img {
-    width: 9em;
-    height: 9em;
-}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
 .choice {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30em;
     position: relative;
-    top: 10em;
-    gap: 1em;
+    right: -35%;
 }
-.game {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 55em;
-    background-color: aliceblue;
-    border: 1em solid black;
-    height: 30em;
-}
-.dator {
-    font-size: 5em;
-    margin-left: 1%;
+  }
+    button {
+        width: 10em;
+        height: 10em;
+    }
+    img {
+        width: 9em;
+        height: 9em;
+    }
+    .choice {
 
-}
-.Player {
-    font-size: 5em;
-    position: relative;
-    right: -1em;
-    
-}
-.img1 {
-    width: 8em;
-    height: 8em;
-    position: relative;
-    top: 8em;
-    right: 14em;
-    
-}
-.img2 {
-    width: 8em;
-    height: 8em;
-    position: relative;
-    top: 8em;
-    right: 6em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30em;
+        position: relative;
+        top: 10em;
+        gap: 1em;
 
-}
-.score {
-    position: relative;
-    right: 50px;
+    }
+    .game {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55em;
+        background-color: aliceblue;
+        border: 1em solid black;
+        height: 30em;
+    }
+    .dator {
+        font-size: 5em;
+        margin-left: 1%;
+
+    }
+    .Player {
+        font-size: 5em;
+        position: relative;
+        right: -1em;
+        
+    }
+    .img1 {
+        width: 8em;
+        height: 8em;
+        position: relative;
+        top: 8em;
+        right: 14em;
+        
+    }
+    .img2 {
+        width: 8em;
+        height: 8em;
+        position: relative;
+        top: 8em;
+        right: 6em;
+
+    }
+    .score {
+        position: relative;
+        right: 50px;
 
 
+    }
 }
